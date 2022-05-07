@@ -21,3 +21,9 @@ npx prisma migrate dev
 
 Ver versão prisma no browser:
 npx prisma studio
+
+npm install nodemailer
+npm install @types/nodemailer -D
+
+npm install jest -D
+npx jest --init
