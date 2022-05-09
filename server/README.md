@@ -44,3 +44,7 @@ module.exports = {
 
 npm i cors
 npm i @types/cors -D
+
+deploy frontend: https://vercel.com/
+deploy bd e backend: https://railway.app/
+-> Start Command: npx prisma migrate deploy && npm run start
