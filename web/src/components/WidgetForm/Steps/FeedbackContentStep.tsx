@@ -19,6 +19,7 @@ export function FeedbackContentStep({
 }: FeedbackContentStepProps) {
   const [screenshot, setScreenshot] = useState<string | null>(null)
   const[comment, setComment] = useState('');
+
   const [isSendingFeedback, setIsSendingFeedback] = useState(false);
 
   const feedbackTypeInfo = feedbackTypes[feedbackType];
@@ -28,7 +29,7 @@ export function FeedbackContentStep({
 
     setIsSendingFeedback(true);
 
-    await api.post('/feedback', {
+    await api.post('/feedbacks', {
       type: feedbackType,
       comment,
       screenshot
