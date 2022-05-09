@@ -25,6 +25,8 @@ npx prisma studio
 npm install nodemailer
 npm install @types/nodemailer -D
 
+https://mailtrap.io/inboxes
+
 npm install jest -D
 npm i @types/jest -D
 npx jest --init
